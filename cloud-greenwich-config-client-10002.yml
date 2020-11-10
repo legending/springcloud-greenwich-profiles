@@ -2,11 +2,11 @@
 spring:
   profiles: dev
   application:
-    name: config-client-10002
+    name: config-client
   text: lalalala-dev
 --- 
 spring:
   profiles: test
   application:
-    name: cloud-greenwich-config-client-10002
+    name: config-client
   text: hahaha-test
