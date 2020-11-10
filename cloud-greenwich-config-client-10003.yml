@@ -2,11 +2,11 @@
 spring:
   profiles: dev
   application:
-    name: cloud-greenwich-config-client-10003
+    name: config-client
   text: test-bus
 ---
 spring:
   profiles: test
   application:
-    name: cloud-greenwich-config-client-10003
+    name: config-client
   text: test
